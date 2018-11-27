@@ -12,4 +12,16 @@ public class ArrayListPrac{
 		list1.add(4); list2.add(9);
 		list1.add(5); list2.add(10);
 	}
+
+	public static ArrayList<Integer> combineLists(ArrayList<Integer> list1, ArrayList<Integer> list2){
+		ArrayList<Integer> list3 = new ArrayList<>();
+
+		for(int i = 0; i < list1.size(); i++)
+			list3.add(list1.get(i));
+
+		for(int i = 0; i < list1.size(); i++)
+			list3.add(list2.get(i));
+
+		return list3;
+	}
 }
