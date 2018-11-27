@@ -16,6 +16,7 @@ public class ArrayListPrac{
 
 		System.out.println( combineLists(list1, list2, list3) );
 
+		printArrayList(list3);
 
 	}
 
@@ -32,6 +33,6 @@ public class ArrayListPrac{
 
 	public static void printArrayList(ArrayList<Integer> list){
 		for(int i = 0; i < list.size(); i++)
-			System.out.print(list.get(i) + " , ");
+			System.out.print(list.get(i) + ", ");
 	}
 }
