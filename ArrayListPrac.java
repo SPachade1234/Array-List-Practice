@@ -11,6 +11,8 @@ public class ArrayListPrac{
 		list1.add(3); list2.add(8);
 		list1.add(4); list2.add(9);
 		list1.add(5); list2.add(10);
+
+		System.out.println( combineLists(list1, list2) );
 	}
 
 	public static ArrayList<Integer> combineLists(ArrayList<Integer> list1, ArrayList<Integer> list2){
