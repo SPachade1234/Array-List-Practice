@@ -33,6 +33,9 @@ public class ArrayListPrac{
 
 	public static void printArrayList(ArrayList<Integer> list){
 		for(int i = 0; i < list.size(); i++)
+			if(i == 9)
+				System.out.print(list.get(i) + "\n");
+			else
 			System.out.print(list.get(i) + ", ");
 	}
 }
